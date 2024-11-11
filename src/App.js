@@ -51,7 +51,7 @@ function App() {
       <textarea ref={reftask} placeholder="Add your tasks here..."></textarea>
       <br />
       <button type="button" onClick={addTask}>
-        Add Your Task: 
+        Add Your Tasks: 
       </button>
       <ul>
         {state.tasks.map(task => (
